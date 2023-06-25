@@ -1,9 +1,9 @@
 package hw01;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.naming.spi.DirStateFactory.Result;
+//import javax.naming.spi.DirStateFactory.Result;
 
 public class hw02 {
     public static void main(String[] args) {
@@ -15,6 +15,7 @@ public class hw02 {
         for (int i = 1; i < (numb+1); i++) {
             if (SimpleN(i) == true) System.out.print(i+" ");;
         }
+        scanner.close();
     }
     private static Boolean SimpleN (Integer number) {
         Boolean Result = true;

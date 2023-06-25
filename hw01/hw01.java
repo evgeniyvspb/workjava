@@ -17,5 +17,6 @@ public class hw01 {
         }
         System.out.println("summa chisel do N=" + numb+ " ravna " + summa);
         System.out.println("proizvedeine chisel do N=" + numb+ " ravno " + proizv);
+        scanner.close();
     }
 }
