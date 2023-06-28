@@ -11,22 +11,22 @@ import java.util.Scanner;
 // 3) Реализовать простой калькулятор c логами
 
 public class hw02_04 {
-    static Logger logger = Logger.getLogger(hw02_04.class.getName());
+    //static Logger logger = Logger.getLogger(hw02_04.class.getName());
     public static void main(String[] args) {
-        try {
-            FileHandler fileHandler=new FileHandler("logo1.txt");
-            SimpleFormatter sFormater = new SimpleFormatter();
-            fileHandler.setFormatter(sFormater);
-        } catch (Exception e) {
-            logger.log(Level.WARNING, e.getMessage());
-        }
-        logger.log(Level.WARNING, "start working");
+        // try {
+        //     FileHandler fileHandler=new FileHandler("logo1.txt");
+        //     SimpleFormatter sFormater = new SimpleFormatter();
+        //     fileHandler.setFormatter(sFormater);
+        // } catch (Exception e) {
+        //     logger.log(Level.WARNING, e.getMessage());
+        // }
+        // logger.log(Level.WARNING, "start working");
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the first number:   ");
         Integer numb1 = scanner.nextInt();
         String record_rez = "enter the first number:   " + numb1;
         record(record_rez);
-        logger.info(record_rez);
+        //logger.info(record_rez);
         scanner.nextLine();
         System.out.println("enter the operation:   ");
         String operMain1String = scanner.nextLine();

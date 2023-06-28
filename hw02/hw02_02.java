@@ -10,11 +10,11 @@ public class hw02_02 {
     public static void main(String[] args) {
         int [] mas = {11, 3, 14, 16, 7,34,7,86,25,87,33};
         sorting(mas);
-        System.out.println(mas);
+        System.out.println(Arrays.toString(mas));
     }
 
     static void record(String rez) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("logo_calc.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("logo_calc.txt", false))) {
             writer.write(rez + '\n');
 
         } catch (Exception e) {

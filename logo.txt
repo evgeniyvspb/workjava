@@ -1,0 +1,4 @@
+enter the first number:   6
+enter the operation:   -
+enter the second number:   4
+Result is:   4
