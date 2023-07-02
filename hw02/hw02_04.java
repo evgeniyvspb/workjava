@@ -1,10 +1,10 @@
 package hw02;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.util.logging.FileHandler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
+// import java.util.logging.FileHandler;
+// import java.util.logging.Level;
+// import java.util.logging.Logger;
+// import java.util.logging.SimpleFormatter;
 import java.util.Scanner;
 
 
@@ -21,6 +21,7 @@ public class hw02_04 {
         //     logger.log(Level.WARNING, e.getMessage());
         // }
         // logger.log(Level.WARNING, "start working");
+        // Логгер не работает, т.к. в него не добавлен обработчик: logger.addHandler(fileHandler);
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the first number:   ");
         Integer numb1 = scanner.nextInt();
