@@ -4,7 +4,7 @@
 // Пройти по списку, найти и удалить целые числа.
 
 import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.List;
 
 public class task03_03 {

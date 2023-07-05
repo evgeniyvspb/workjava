@@ -9,7 +9,7 @@ public class hw03 {
         System.out.println("enter the first number:   ");
         Integer numb1 = scanner.nextInt();
         //System.out.println("enter the operation:   ");
-        String operMain = scanner.nextLine();
+       // String operMain = scanner.nextLine();
 
         System.out.println("enter the operation:   ");
         String operMain1String = scanner.nextLine();
